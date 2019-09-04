@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Site para os vídeos do Story Map 2</title>
+  <style>
+    .beckgraud{
+      background: url("Fundo_Obrac.png") fixed center;
+      background-size: auto 100%;
+    }
+
+    .center {
+      width: 100%;
+      margin: auto;
+      text-align: center;
+    }
+  
+    @media only screen and (min-width: 768px){
+        video{
+          width: 700px;
+          height: 900px;
+        }
+        .beckgraud{
+          background: url("Fundo_Obrac.png") fixed center;
+          background-size: auto 100%;
+        }
+    }
+
+    @media only screen and (min-width: 1000px){
+      video{
+        width: 1100px;
+        height: 900px;
+        margin: 50px 10px 20px;
+      }
+      .beckgraud{
+        background: url("Fundo_Obrac.png") fixed  no-repeat center;
+        background-size: auto 100%;
+      }
+    }
+  </style>
+</head>
+<body style="background-color: #585858">
+  <div class="center">
+    <div class="beckgraud">
+  <video width="300px" height="700px" controls>>
+      <source src="grafico-refugiados-por-cidade.mp4" type="video/mp4">
+  </video>
+  </div>
+   </div>
+</body>
+</html>
