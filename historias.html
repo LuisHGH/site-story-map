@@ -5,6 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Site para os vídeos do Story Map 2</title>
   <style>
+    body{
+      text-align: center;
+      align-content: center;
+    }
     .beckgraud{
       background: url("Fundo_Obrac.png") fixed center;
       background-size: auto 100%;
@@ -19,21 +23,20 @@
        font-size: 20px;
       font-family: Arial, Helvetica, sans-serif;
       color: aliceblue;
+      padding: 50px;
       }
       .titulo{
        font-size: 25px;
        font-family: Arial, Helvetica, sans-serif;
        color: aliceblue;
+       padding: 50px;
       }
-      .depe{
+      .flex-cotainer{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
         width: 500px;
-        height: 700px; 
-        margin: 50px 10px 20px;
-      }
-      .deitado{
-        width: 700px;
-        height: 600px;
-        margin: 50px 10px 20px;
+        height: 500px;
       }
     @media only screen and (min-width: 768px){
         video{
@@ -41,20 +44,13 @@
           height: 900px;
           margin: 50px 10px 20px;
         }
+        body{
+          text-align: center;
+        }
         .beckgraud{
           background: url("Fundo_Obrac.png") fixed center;
           background-size: auto 100%;
         }
-        .depe{
-        width: 800px;
-        height: 990px; 
-        margin: 50px 10px 20px;
-      }
-      .deitado{
-        width: 900px;
-        height: 600px;
-        margin: 50px 10px 20px;
-      }
     }
 
     @media only screen and (min-width: 1000px){
@@ -63,19 +59,13 @@
         height: 600px;
         margin: 50px 10px 20px;
       }
+      body{
+        text-align: center;
+        align-content: center;
+      }
       .beckgraud{
         background: url("Fundo_Obrac.png") fixed  no-repeat center;
         background-size: auto 100%;
-      }
-      .depe{
-        width: 900px; 
-        height: 1000px; 
-        margin: 50px 10px 20px;
-      }
-      .deitado{
-        width: 900px;
-        height: 600px;
-        margin: 50px 10px 20px;
       }
     }
     
@@ -88,73 +78,73 @@
             <p class="titulo">
                 Um caso de refúgio pelas barragens de Brumadinho é o de seu Manoel (Seu Lolô). Sua família costumava sempre se reunir em sua casa para confraternizar, como no dia de seu aniversário. Eduardo, o neto do Senhor Manoel, amava ir a fazenda de seu avô, para pegar e soltar  passarinhos, subir em árvores, brincar com os animaizinhos que seu vovô criava. Todos gostavam muito daquele lugar e fizeram diversas memórias relacionadas aquele lar. No dia do acidente, o Senhor Manoel estava em casa. Ele morava atrás da Pousada atingida pela lama . Ele e seu irmão, conseguiram se segurar em uma árvore, e pelo que a família chama de milagre, conseguiram se salvar. A casa não foi destruída , entretanto todas as redondezas estão impedidas.Todo o quintal de sua casa está coberto de lama. O Seu Manoel é agricultor, e por causa do deslizamento da barragem, não consegue mais cultivar nada, já que o solo, agora cheio de metais pesados,  tornou infértil e completamente tóxico. Ele possuía uma lagoa com peixes, criava coelhos, cabras e plantava várias coisas. Seu Manoel, mora junto com o irmão que estava junto dele no dia do acidente. Atrelado com as memórias e com a impossibilidade de locomoção, eles tiveram que se mudar e não conseguem voltar lá nem para visitar mais. Toda a família sente muita falta da fazenda do Seu Manoel, e agora, a única coisa que lhes resta, são as memórias que construíram lá todos esses anos
             </p>
-            <figure class="depe">
-                <img src="feliz.jpeg">
+            <figure class="flex-conteiner">
+                <img src="feliz.jpeg"></br>
               </figure>
             <p class="legenda">
               Seu Manoel e sua família, no dia de seu aniversário, em sua casa
             </p>
-            <figure class="deitado">
-              <img src="foto-3-crianca.jpeg">
+            <figure class="flex-conteiner">
+              <img src="foto-3-crianca.jpeg"></br>
             </figure>
             <p class="legenda">
-              Seu Manoel, sua neta Paulinha e seu neto, Eduardo
+              Seu Manoel, sua neta Paulinha e seu neto, Eduardo</br>
             </p>
-            <figure class="depe">
-              <img src="mato.jpeg">
+            <figure class="flex-conteiner">
+              <img src="mato.jpeg"></br>
             </figure>
             <p class="legenda">
-              Eduardo e seu tio avô, cuidando da fazenda
+              Eduardo e seu tio avô, cuidando da fazenda</br>
             </p>
-            <figure class="depe">
-              <img src="brincando.jpg">
+            <figure class="flex-conteiner">
+              <img src="brincando.jpg"></br>
             </figure>
             <p class="legenda">
-              Eduardo brincando com passarinhos na fazenda de seu avô
+              Eduardo brincando com passarinhos na fazenda de seu avô</br>
             </p>
-            <figure class="deitado">
-              <img src="tomate.jpeg">
+            <figure class="flex-conteiner">
+              <img src="tomate.jpeg"></br>
             </figure>
             <p class="legenda">
-              "Meu avô é agricultor, lá ele tinha lagoa com peixes, criava coelhos, cabras e tinha plantação de tudo." Diz Paulinha, neta de Manoel
+              "Meu avô é agricultor, lá ele tinha lagoa com peixes, criava coelhos, cabras e tinha plantação de tudo." Diz Paulinha, neta de Manoel</br>
             </p>
-            <figure class="deitado">
-              <img src="quintal h.jpeg">
+            <figure class="flex-conteiner">
+              <img src="quintal h.jpeg"></br>
             </figure>
             <p class="legenda">
-              "Nós dizemos sempre que foi um milagre. A casa dele não foi destruída, mas tem lama por todo o quintal" - comentou Paula, neta de seu Manoel
+              "Nós dizemos sempre que foi um milagre. A casa dele não foi destruída, mas tem lama por todo o quintal" - comentou Paula, neta de seu Manoel</br>
             </p>
             <video src="brincadeira.3gpp" controls></video>
             <video src="brincadeira2.3gpp" controls></video>
             <br>
             <br>
             <p class="titulo">
-              Outro caso de refúgio é o do seu Hélio, que entrevistamos e coletamos um áudio
+              Outro caso de refúgio é o do seu Hélio, que entrevistamos e coletamos um áudio</br>
             </p>
             <audio src="helio.ogg" controls></audio>
             <figure class="deitado">
-              <img src="barro.jpeg">
+              <img src="barro.jpeg"></br>
             </figure>
             <p class="legenda">
               Fazenda do Senhor Hélio, coberta por lama
             </p>
-            <figure class="deitado">
-              <img src="vista aerea.jpeg">
+            <figure class="flex-conteiner">
+              <img src="vista aerea.jpeg"></br>
             </figure>
             <p class="legenda">
-              Imagem de satélite do Google Maps, mostrando a casa de Seu Hélio antes do deslizamento da barragem
+              Imagem de satélite do Google Maps, mostrando a casa de Seu Hélio antes do deslizamento da barragem</br>
             </p>
-            <figure class="deitado">
-              <img src="lama.jpeg">
+            <figure class="flex-conteiner">
+              <img src="lama.jpeg"></br>
             </figure>
             <p class="legenda">
-              Casa do seu Hélio, por imagem de satélite, depois do deslizamento
+              Casa do seu Hélio, por imagem de satélite, depois do deslizamento</br>
             </p>
-            <figure class="deitado">
-              <img src="quintal casa.jpeg" >
+            <figure class="flex-conteiner">
+              <img src="quintal casa.jpeg"></br>
             </figure>
             <p class="legenda">
-              "É como se a gente perdesse uma parte nossa" diz João, sobrinho neto de Hélio Murta.
+              "É como se a gente perdesse uma parte nossa" diz João, sobrinho neto de Hélio Murta.</br>
             </p>
         </div>
     </div>
